@@ -14,3 +14,21 @@ Utiliza o JSX para renderizar HTML
 E aplicação o Virtual Dom para realizar as alterações de DOM;
 
 Podemos Adicionar a um Projeto OU CRIAR UM PROJETO COM ELE
+
+# COMO INSTALAR O REACT?
+
+Para instalar o React vamos utilizar uma ferramenta chamada CREATE REACT APP;
+
+Recebemos todos os arquivos da biblioteca e temos como executá-la
+
+Para utilizar precisamos do Node e também npm;
+
+Esta ferramenta também otimiza o app gerado para produção
+
+É possivel iniciar a aplicação com npm start
+
+## COMANDO NPX CREATE-REACT-APP NOME-DO-PROJETO
+
+cd mu-site
+
+npm start
