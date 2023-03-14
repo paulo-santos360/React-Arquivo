@@ -32,3 +32,15 @@ Esta ferramenta também otimiza o app gerado para produção
 cd mu-site
 
 npm start
+
+#Entendendo o JSX
+
+O JSX é como um html, porem dentro de codigo Javascript;
+
+É a principal maneira de escrever HTML com o REACT;
+
+Podemos interpolar variaveis, inserindo ela entre{}
+
+É possivel também executar funções em JSX;
+
+Inserir valores em atributos de tags também é válido em JSX;
