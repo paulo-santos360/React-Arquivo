@@ -2,25 +2,32 @@
 import './App.css';
 
 function App() {
+
+  const name = 'PAULO'
+
+  const newName = name.toLocaleUpperCase()
+
+  function sum(a,b){
+    return a + b
+  }
+
+  const url = 'https://via.placeholder.com/150'
+
   return (
+    /*Sempre tem que ter um elemento pai*/
+    /*Sempre usa className no react e não class porque é uma palavra reservada */
     <div className="App">
-     {/*  <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */
+     {
+      <div>
       <h1>Hello World</h1>
+      <p>Meu primeiro App {name}</p>
+      <p>Some: {sum(1,2)}</p>
+      <img src={url} alt="Minha Imagem"/>
+      
+      </div>
       }
     </div>
+    /*Imagem dinimica com função url*/
   );
 }
 

@@ -33,7 +33,9 @@ cd mu-site
 
 npm start
 
-#Entendendo o JSX
+ctrl + C para o servidor
+
+# Entendendo o JSX
 
 O JSX é como um html, porem dentro de codigo Javascript;
 
@@ -44,3 +46,9 @@ Podemos interpolar variaveis, inserindo ela entre{}
 É possivel também executar funções em JSX;
 
 Inserir valores em atributos de tags também é válido em JSX;
+
+/*Sempre tem que ter um elemento pai*/
+
+/*Sempre usa className no react e não class porque é uma palavra reservada */
+
+
