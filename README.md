@@ -51,4 +51,12 @@ Inserir valores em atributos de tags também é válido em JSX;
 
 /*Sempre usa className no react e não class porque é uma palavra reservada */
 
+# Componentes
 
+Permite dividir a aplicação em partes
+
+Os componentes renderizam JSX, assim como App.js(que é um Componente)
+
+E importá-lo onde precisamos utilizar;
+
+Normalmente ficam em uma pasta chamada components
