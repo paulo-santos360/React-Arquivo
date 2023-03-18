@@ -5,6 +5,7 @@ import Frase from './componentes/frase'; */
 import SayMyName from "./componentes/SayMyName";
 import Pessoas from "./componentes/Pessoas";
 import Frase from "./componentes/Frase";
+import List from "./componentes/List";
 
 
 
@@ -44,6 +45,7 @@ function App() {
         foto="https://via.placeholder.com/150"
       />
       <Frase/>
+      <List/>
     </div>
   );
 }
