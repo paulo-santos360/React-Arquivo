@@ -1,0 +1,15 @@
+/*Não Funciona container-center nao pode usar aqui - para separar a classe
+USA _ OU fraseContainer camelCase
+*/
+
+.frase_container{
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+}
+
+.fraseContainer{
+    color: #fff;
+    height: 100px;
+    background-color: #333;
+    margin: 0;
+}

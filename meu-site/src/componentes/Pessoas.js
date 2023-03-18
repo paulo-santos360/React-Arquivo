@@ -10,8 +10,7 @@
     )
 } */
 
-
-function Pessoa({nome, idade, profissao, foto}){
+function Pessoas({nome, idade, profissao, foto}){
     return(
         <div>
             <img src={foto} alt={nome} />
@@ -21,4 +20,4 @@ function Pessoa({nome, idade, profissao, foto}){
         </div>
     )
 }
-export default Pessoa
+export default Pessoas
