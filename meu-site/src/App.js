@@ -1,38 +1,42 @@
 /* import logo from './logo.svg'; */
 import './App.css';
-import HelloWorld from './componentes/Hello.Word';
-import Frase from './componentes/frase';
+/* import HelloWorld from './componentes/Hello.Word';
+import Frase from './componentes/frase'; */
+import SayMyName from './componentes/SayMyName';
+import Pessoa from './componentes/Pessoas';
 
 function App() {
 
-  const name = 'PAULO'
+   const nome = 'Maria'
 
-  const newName = name.toLocaleUpperCase()
+ /*  const newName = nome.toLocaleUpperCase()  */
 
-  function sum(a,b){
+ /*  function sum(a,b){
     return a + b
-  }
+  } */
 
-  const url = 'https://via.placeholder.com/150'
+/*   const url = 'https://via.placeholder.com/150' */
 
   return (
     /*Sempre tem que ter um elemento pai*/
     /*Sempre usa className no react e não class porque é uma palavra reservada */
     <div className="App">
-     {
-      <div>
-      <h1>Hello World</h1>
+     
+    {/*   <div>
+        <h1>Hello World</h1>
       <p>Meu primeiro App {name}</p>
       <p>Some: {sum(1, 2)}</p>
       <img src={url} alt="Minha Imagem"/>
       <Frase/>
       <HelloWorld/>
-      <Frase/>
+      <Frase/>  
       </div>
-      }
+      /*Imagem dinimica com função url
+      Exportação de helloworld.js e frases.js */}
+    <SayMyName  nome="Paulo"/> 
+    <SayMyName nome={nome} />
+    <Pessoa nome="Paulo" idade="30" profissao="Programador" foto="https://via.placeholder.com/150" />
     </div>
-    /*Imagem dinimica com função url*/
   );
-}
-
+ }
 export default App
