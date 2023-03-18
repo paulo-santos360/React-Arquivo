@@ -1,6 +1,7 @@
 /* import logo from './logo.svg'; */
 import './App.css';
 import HelloWorld from './componentes/Hello.Word';
+import Frase from './componentes/frase';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       <p>Some: {sum(1, 2)}</p>
       <img src={url} alt="Minha Imagem"/>
       <HelloWorld/>
+      <Frase/>
       </div>
       }
     </div>
