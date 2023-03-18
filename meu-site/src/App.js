@@ -23,7 +23,6 @@ function App() {
       <p>Meu primeiro App {name}</p>
       <p>Some: {sum(1,2)}</p>
       <img src={url} alt="Minha Imagem"/>
-      
       </div>
       }
     </div>
@@ -31,4 +30,3 @@ function App() {
   );
 }
 
-export default App;
