@@ -25,6 +25,7 @@ function App() {
       <p>Meu primeiro App {name}</p>
       <p>Some: {sum(1, 2)}</p>
       <img src={url} alt="Minha Imagem"/>
+      <Frase/>
       <HelloWorld/>
       <Frase/>
       </div>

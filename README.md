@@ -60,3 +60,15 @@ Os componentes renderizam JSX, assim como App.js(que é um Componente)
 E importá-lo onde precisamos utilizar;
 
 Normalmente ficam em uma pasta chamada components
+
+# Props
+
+As Props são valores passados paea componentes;
+
+Podemos deixa-los dinâmicos;
+
+Ou seja, mudando a exucuçao por causa na chamada do componente
+
+E precisa ser resgatado dentro de uma propriedade/argumento chamada props na função de definição do componente;
+
+As props são somente de leitura!
