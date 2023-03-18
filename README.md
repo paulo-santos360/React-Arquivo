@@ -72,3 +72,15 @@ Ou seja, mudando a exucuçao por causa na chamada do componente
 E precisa ser resgatado dentro de uma propriedade/argumento chamada props na função de definição do componente;
 
 As props são somente de leitura!
+
+# Adicionando CSS
+
+O CSS pode ser adicionado de forma global na aplicaçao, por meio do arquivo index.css por exemplo
+
+Porém é possivel estilizar a nivel de componentes
+
+Utilizando o CSS Modules para isso
+
+Basta criar como Componente.module.css
+
+E chamar esta CSS  no Componente
