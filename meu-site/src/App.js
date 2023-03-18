@@ -7,6 +7,7 @@ import Frase from "./componentes/Frase";
 import List from "./componentes/List"; */
 import "./App.css";
 import Evento from "./componentes/Evento";
+import Form from "./componentes/Form";
 
 /* const nome = "Maria"; */
 
@@ -50,6 +51,7 @@ function App() {
       <h1>Ola</h1>
       <Evento numero="1" />
       <Evento numero="2" />
+      <Form/>
     </div>
   )
 }

@@ -7,7 +7,7 @@ function Evento({ numero }){
     return(
         <div>
             <p>Clique para disparar um evento</p>
-            <button onClick={meuEvento()}>Ativar!</button>
+            <button onClick={meuEvento}>Ativar!</button>
         </div>
     )
 }
