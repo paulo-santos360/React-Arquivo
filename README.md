@@ -94,3 +94,13 @@ O propósito é descomplicar os nós do DOM
 A sintaxe é <> e </>, não há um nome para a tag;
 
 Criamos no próprio JSX
+
+# Avançando em Props
+
+Podemos definir tipos para as props, realizando uma espécie de validação
+
+Defimos em um objeto chamado propTypes no próprio componente
+
+E ainda há a possibilidade de definir um valor padrão
+
+Neste caso utilizamos o objeto defaulProps
