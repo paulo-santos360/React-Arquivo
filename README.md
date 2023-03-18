@@ -104,3 +104,15 @@ Defimos em um objeto chamado propTypes no próprio componente
 E ainda há a possibilidade de definir um valor padrão
 
 Neste caso utilizamos o objeto defaulProps
+
+# Eventos
+
+Os eventos de React são os mesmo do Dom
+
+Ou seja, temos eventos para responder a um click
+
+O evento é atrelado a uma tag que irá executa-lo
+
+Geralmente um método é atribuido ao evento
+
+Este método devve ser criado no componente
