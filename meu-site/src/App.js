@@ -6,6 +6,7 @@ import Pessoas from "./componentes/Pessoas";
 import Frase from "./componentes/Frase";
 import List from "./componentes/List"; */
 import "./App.css";
+import Condicional from "./componentes/Condicoes";
 import Evento from "./componentes/Evento";
 import Form from "./componentes/Form";
 
@@ -52,6 +53,7 @@ function App() {
     /*Sempre usa className no react e não class porque é uma palavra reservada */
     <div className="App">
      <h1>Renderização Condicional</h1>
+     <Condicional/>
     </div>
   )
 }
