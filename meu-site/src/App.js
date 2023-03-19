@@ -42,15 +42,16 @@ import Form from "./componentes/Form";
       <List/>
 
       <> */
+       {/* <h1>Ola</h1>
+      <Evento />
+      <Form/> */}
 
 function App() {
   return (
     /*Sempre tem que ter um elemento pai*/
     /*Sempre usa className no react e não class porque é uma palavra reservada */
     <div className="App">
-      <h1>Ola</h1>
-      <Evento />
-      <Form/>
+     <h1>Renderização Condicional</h1>
     </div>
   )
 }
