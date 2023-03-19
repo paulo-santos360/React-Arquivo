@@ -117,4 +117,12 @@ Geralmente um método é atribuido ao evento
 
 Este método devve ser criado no componente
 
-# UseS
+# UseState
+
+O useState é um hook do react
+
+Com ele conseguimos manusear o estado de um componente de forma simples
+
+Este hook funciona muito bem com eventos
+
+Podemos atrelar um evento a mudança de state
