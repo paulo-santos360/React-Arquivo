@@ -148,3 +148,7 @@ Envolvemos as tags em chaves{};
 Como as chaves executam JavaScript, criamos nossa condição
 
 É possivel usar o state para criar as condiçoes;
+
+## Renderização de Listas
+
+Para renderizar uma lista vamos primeirament
