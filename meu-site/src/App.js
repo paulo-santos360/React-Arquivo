@@ -49,8 +49,7 @@ function App() {
     /*Sempre usa className no react e não class porque é uma palavra reservada */
     <div className="App">
       <h1>Ola</h1>
-      <Evento numero="1" />
-      <Evento numero="2" />
+      <Evento />
       <Form/>
     </div>
   )
