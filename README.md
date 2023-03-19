@@ -116,3 +116,5 @@ O evento é atrelado a uma tag que irá executa-lo
 Geralmente um método é atribuido ao evento
 
 Este método devve ser criado no componente
+
+# UseS
