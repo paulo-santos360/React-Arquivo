@@ -159,3 +159,12 @@ Podendo assim renderizar algo na tela
 
 É possivel unir operadores condicionais com a renderizacao de listas;
 
+# State Lift
+
+State Lift é um técnica utilizada para compartilhar o state
+
+É normal vários componentes dependerem do mesmo estado
+
+Então precisamos elevar o nivel do mesmo a um componente pai
+
+Então centralizamos o state no pai, e definimos quem usa e quem define (setState)

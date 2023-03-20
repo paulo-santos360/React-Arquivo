@@ -7,9 +7,10 @@ import Frase from "./componentes/Frase";
 import List from "./componentes/List"; 
 import Condicional from "./componentes/Condicoes";
 import Evento from "./componentes/Evento";
-import Form from "./componentes/Form";*/
+import Form from "./componentes/Form";
+import OutraLista from "./componentes/OutraLista";*/
 import "./App.css";
-import OutraLista from "./componentes/OutraLista";
+
 
 
 /* const nome = "Maria"; */
@@ -53,6 +54,9 @@ import OutraLista from "./componentes/OutraLista";
     */}
      /*Sempre tem que ter um elemento pai*/
     /*Sempre usa className no react e não class porque é uma palavra reservada */
+    {/*  <h1>Renderização de Listas</h1>
+    <OutraLista itens={meusItens}/>
+    <OutraLista itens={[]}/> */}
 
 function App() {
 
@@ -61,9 +65,7 @@ function App() {
   return (
    
     <div className="App">
-    <h1>Renderização de Listas</h1>
-    <OutraLista itens={meusItens}/>
-    <OutraLista itens={[]}/>
+   
 
 
     </div>
