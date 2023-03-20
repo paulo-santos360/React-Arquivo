@@ -9,6 +9,7 @@ import Condicional from "./componentes/Condicoes";
 import Evento from "./componentes/Evento";
 import Form from "./componentes/Form";*/
 import "./App.css";
+import OutraLista from "./componentes/OutraLista";
 
 
 /* const nome = "Maria"; */
@@ -50,16 +51,18 @@ import "./App.css";
      <h1>Renderização Condicional</h1>
      <Condicional/>
     */}
+     /*Sempre tem que ter um elemento pai*/
+    /*Sempre usa className no react e não class porque é uma palavra reservada */
 
 function App() {
 
   const meusItens = ['React', 'Vue', 'Angular']
 
   return (
-    /*Sempre tem que ter um elemento pai*/
-    /*Sempre usa className no react e não class porque é uma palavra reservada */
+   
     <div className="App">
     <h1>Renderização de Listas</h1>
+    <OutraLista itens={meusItens}/>
     </div>
   )
 }
