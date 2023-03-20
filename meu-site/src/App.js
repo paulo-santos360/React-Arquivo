@@ -4,11 +4,12 @@ import Frase from './componentes/frase'; */
 /* import SayMyName from "./componentes/SayMyName";
 import Pessoas from "./componentes/Pessoas";
 import Frase from "./componentes/Frase";
-import List from "./componentes/List"; */
-import "./App.css";
+import List from "./componentes/List"; 
 import Condicional from "./componentes/Condicoes";
 import Evento from "./componentes/Evento";
-import Form from "./componentes/Form";
+import Form from "./componentes/Form";*/
+import "./App.css";
+
 
 /* const nome = "Maria"; */
 
@@ -45,15 +46,20 @@ import Form from "./componentes/Form";
       <> */
        {/* <h1>Ola</h1>
       <Evento />
-      <Form/> */}
+      <Form/> 
+     <h1>Renderização Condicional</h1>
+     <Condicional/>
+    */}
 
 function App() {
+
+  const meusItens = ['React', 'Vue', 'Angular']
+
   return (
     /*Sempre tem que ter um elemento pai*/
     /*Sempre usa className no react e não class porque é uma palavra reservada */
     <div className="App">
-     <h1>Renderização Condicional</h1>
-     <Condicional/>
+    <h1>Renderização de Listas</h1>
     </div>
   )
 }
