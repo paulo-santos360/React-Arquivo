@@ -14,10 +14,10 @@ import SeuNome from "./componentes/SeuNome";
 import { useState } from "react";*/
 
 /* import "./App.css"; */
-import { BrowserRouter as Routes, Switch, Routes, Link} from 'react-router-dom'
-import Home from './componentes/pages/Home';
-import Empresa from './componentes/pages/Empresa';
-import Contato from './componentes/pages/Contato';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import Home from './componentes/pages/Home'
+import Contato from './componentes/pages/Contato'
+import Empresa from './componentes/pages/Empresa'
 
 
 /* const nome = "Maria"; */
@@ -94,17 +94,11 @@ function App() {
         <ul>
           <li><Link to="/contato">Contato</Link></li>
         </ul>
-        <Switch>
-          <Routes path="/" element={<Home/>}>
-            <Home />
-          </Routes>
-          <Routes path="/empresa" element={<Empresa/>}>
-            <Empresa />
-          </Routes>
-          <Routes path="/contato" element={<Contato/>}>
-            <Contato />
-          </Routes>
-        </Switch>
+        <Routes>
+        <Route exact path="/" element={<Home/>} />
+        <Route path="/empresa" element={<Empresa/>} />
+        <Route path="/contato" element={<Contato/>} />
+      </Routes>
       </Router>
      
     
