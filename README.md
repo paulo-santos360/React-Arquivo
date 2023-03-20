@@ -180,3 +180,7 @@ Trocando apenas uma parte do layout da aplicação, ou seja, o que muda de view 
 Precisamos instalar este pacote no projeto
 
 E também realizar algumas mudanças em como o App é estruturado
+
+## Comando para instalar o Router
+
+npm install react-router-dom

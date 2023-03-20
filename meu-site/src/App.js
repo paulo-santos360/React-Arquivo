@@ -8,12 +8,14 @@ import List from "./componentes/List";
 import Condicional from "./componentes/Condicoes";
 import Evento from "./componentes/Evento";
 import Form from "./componentes/Form";
-import OutraLista from "./componentes/OutraLista";*/
-import { useState } from "react";
-
-import "./App.css";
+import OutraLista from "./componentes/OutraLista";
 import Saudacao from "./componentes/Saudacao";
 import SeuNome from "./componentes/SeuNome";
+import { useState } from "react";*/
+
+/* import "./App.css"; */
+import {BrowserRouter as Route, Switch, Router, Link} from 'react-router-dom'
+
 
 /* const nome = "Maria"; */
 
@@ -65,19 +67,26 @@ import SeuNome from "./componentes/SeuNome";
     <OutraLista itens={meusItens}/>
     <OutraLista itens={[]}/> */
 }
-
+ {/*
+ 
+  const [nome, setNome] = useState()
+ <h1>State Lift</h1>
+      <SeuNome setNome={setNome} />
+      <Saudacao nome={nome}/>
+      {nome} */}
 
 
 function App() {
 
-  const [nome, setNome] = useState()
 
   return (
     <div className="App">
-      <h1>State Lift</h1>
-      <SeuNome setNome={setNome} />
-      <Saudacao nome={nome}/>
-      {nome}
+      <Router>
+        <ul>
+          <li><Link to="/">Home</Link></li>
+        </ul>
+      </Router>
+     
     </div>
   )
 }
