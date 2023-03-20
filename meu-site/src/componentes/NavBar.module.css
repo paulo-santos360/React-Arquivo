@@ -1,0 +1,17 @@
+.navlink{
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+}
+.li{
+    display: flex;
+    margin-left: 10px;
+}
+.navlink_a{
+    color: black;
+}
+
+a{
+    padding-left: 20px;
+}
+

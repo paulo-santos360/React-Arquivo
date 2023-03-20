@@ -18,6 +18,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Home from './componentes/pages/Home'
 import Contato from './componentes/pages/Contato'
 import Empresa from './componentes/pages/Empresa'
+import Navbar from './componentes/NavBar'
+import Footer from './componentes/Footer'
 
 
 /* const nome = "Maria"; */
@@ -85,23 +87,15 @@ function App() {
   return (
     
       <Router>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-        </ul>
-        <ul>
-          <li><Link to="/empresa">Empresa</Link></li>
-        </ul>
-        <ul>
-          <li><Link to="/contato">Contato</Link></li>
-        </ul>
+       <Navbar />
         <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route path="/empresa" element={<Empresa/>} />
         <Route path="/contato" element={<Contato/>} />
       </Routes>
+      <Footer />
       </Router>
      
-    
   )
 }
 export default App;
