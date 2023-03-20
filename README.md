@@ -151,4 +151,10 @@ Como as chaves executam JavaScript, criamos nossa condição
 
 ## Renderização de Listas
 
-Para renderizar uma lista vamos primeirament
+Para renderizar uma lista vamos primeiramente precisar de um array
+
+Depois utilizamos a função map, para percorrer cada um dos itens
+
+Podendo assim renderizar algo na tela
+
+É possivel unir operadores condicionais com a renderizacao de listas;
