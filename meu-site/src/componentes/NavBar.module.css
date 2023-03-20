@@ -1,17 +1,9 @@
-.navlink{
-    color: black;
-    list-style-type: none;
-    text-decoration: none;
-}
 .li{
     display: flex;
-    margin-left: 10px;
-}
-.navlink_a{
-    color: black;
+    list-style: none;
 }
 
-a{
+.item{
     padding-left: 20px;
 }
 

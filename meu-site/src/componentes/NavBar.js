@@ -6,17 +6,17 @@ function Navbar() {
   
   
     return (
-    <ul className={styles.li}>
-      <li>
-        <Link to="/">Home</Link>
+    <ul  className={styles.li}>
+      <li  >
+        <Link className={styles.item} to="/">Home</Link>
       </li>
 
       <li>
-        <Link to="/empresa">Empresa</Link>
+        <Link className={styles.item} to="/empresa">Empresa</Link>
       </li>
 
       <li>
-        <Link to="/contato">Contato</Link>
+        <Link className={styles.item} to="/contato">Contato</Link>
       </li>
     </ul>
   );

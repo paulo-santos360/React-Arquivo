@@ -185,6 +185,23 @@ E também realizar algumas mudanças em como o App é estruturado
 
 npm install react-router-dom
 
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import Home from './componentes/pages/Home'
+import Contato from './componentes/pages/Contato'
+import Empresa from './componentes/pages/Empresa'
+import Navbar from './componentes/NavBar'
+import Footer from './componentes/Footer'
+
+Router
+Navbar 
+Routes
+Route exact path="/" element={<Home/>} />
+Route path="/empresa" element={<Empresa/>} />
+Route path="/contato" element={<Contato/>} />
+Routes>
+Footer />
+/Router>
+
 # O que é React Router?
 
 React Router é o pacote mais utilizado para criar rotas em uma aplicação React;
