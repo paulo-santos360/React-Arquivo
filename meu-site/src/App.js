@@ -14,7 +14,10 @@ import SeuNome from "./componentes/SeuNome";
 import { useState } from "react";*/
 
 /* import "./App.css"; */
-import {BrowserRouter as Route, Switch, Router, Link} from 'react-router-dom'
+import { BrowserRouter as Routes, Switch, Routes, Link} from 'react-router-dom'
+import Home from './componentes/pages/Home';
+import Empresa from './componentes/pages/Empresa';
+import Contato from './componentes/pages/Contato';
 
 
 /* const nome = "Maria"; */
@@ -80,14 +83,31 @@ function App() {
 
 
   return (
-    <div className="App">
+    
       <Router>
         <ul>
           <li><Link to="/">Home</Link></li>
         </ul>
+        <ul>
+          <li><Link to="/empresa">Empresa</Link></li>
+        </ul>
+        <ul>
+          <li><Link to="/contato">Contato</Link></li>
+        </ul>
+        <Switch>
+          <Routes path="/" element={<Home/>}>
+            <Home />
+          </Routes>
+          <Routes path="/empresa" element={<Empresa/>}>
+            <Empresa />
+          </Routes>
+          <Routes path="/contato" element={<Contato/>}>
+            <Contato />
+          </Routes>
+        </Switch>
       </Router>
      
-    </div>
+    
   )
 }
 export default App;

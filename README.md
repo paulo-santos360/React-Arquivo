@@ -184,3 +184,19 @@ E também realizar algumas mudanças em como o App é estruturado
 ## Comando para instalar o Router
 
 npm install react-router-dom
+
+# O que é React Router?
+
+React Router é o pacote mais utilizado para criar rotas em uma aplicação React;
+
+Cada rota é uma página, rota é a nomenclatura utilizada
+
+Ou seja, permite nosso app SPA ter múltiplas páginas
+
+Precisamos instalar e configurar no projeto
+
+Há diversas Funcionalidade no React Router
+
+Redirecionamento, rotas aninhadas, 404 e etc
+
+Vamos criar o projeto e instalá-lo
