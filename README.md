@@ -158,3 +158,4 @@ Depois utilizamos a função map, para percorrer cada um dos itens
 Podendo assim renderizar algo na tela
 
 É possivel unir operadores condicionais com a renderizacao de listas;
+
