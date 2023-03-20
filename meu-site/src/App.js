@@ -9,9 +9,11 @@ import Condicional from "./componentes/Condicoes";
 import Evento from "./componentes/Evento";
 import Form from "./componentes/Form";
 import OutraLista from "./componentes/OutraLista";*/
+import { useState } from "react";
+
 import "./App.css";
-
-
+import Saudacao from "./componentes/Saudacao";
+import SeuNome from "./componentes/SeuNome";
 
 /* const nome = "Maria"; */
 
@@ -46,28 +48,36 @@ import "./App.css";
       <List/>
 
       <> */
-       {/* <h1>Ola</h1>
+{
+  /* <h1>Ola</h1>
       <Evento />
       <Form/> 
      <h1>Renderização Condicional</h1>
      <Condicional/>
-    */}
-     /*Sempre tem que ter um elemento pai*/
-    /*Sempre usa className no react e não class porque é uma palavra reservada */
-    {/*  <h1>Renderização de Listas</h1>
+    */
+}
+/*Sempre tem que ter um elemento pai*/
+/*Sempre usa className no react e não class porque é uma palavra reservada */
+{
+  /* 
+      const meusItens = ['React', 'Vue', 'Angular']
+    <h1>Renderização de Listas</h1>
     <OutraLista itens={meusItens}/>
-    <OutraLista itens={[]}/> */}
+    <OutraLista itens={[]}/> */
+}
+
+
 
 function App() {
 
-  const meusItens = ['React', 'Vue', 'Angular']
+  const [nome, setNome] = useState()
 
   return (
-   
     <div className="App">
-   
-
-
+      <h1>State Lift</h1>
+      <SeuNome setNome={setNome} />
+      <Saudacao nome={nome}/>
+      {nome}
     </div>
   )
 }
