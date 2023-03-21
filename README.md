@@ -217,3 +217,17 @@ Há diversas Funcionalidade no React Router
 Redirecionamento, rotas aninhadas, 404 e etc
 
 Vamos criar o projeto e instalá-lo
+
+# React Icons
+
+O react icons é um pacote de icones externo;
+
+Precisamos adicionar ao projeto atraves do npm
+
+Ele nos permite adicionar icones ao projeto com uma sintaxe parecida a de componentes
+
+Além disso há uma grande quantidade de icones disponiveis
+
+## Comando para instalar
+
+npm install react-icons
