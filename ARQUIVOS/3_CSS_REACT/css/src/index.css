@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  color: red;
+}
+
+.red-title{
+  background-color: black;
+  color: white;
+}
+
+.title{
+  background-color: aqua;
+  color: blueviolet;
+}

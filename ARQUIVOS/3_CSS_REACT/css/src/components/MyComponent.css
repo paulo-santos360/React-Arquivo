@@ -1,0 +1,16 @@
+.center{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+p{
+    color: red;
+}
+
+h2{
+    color: blue;
+}
+
+/* usa classe para não dar problema com o global css */
