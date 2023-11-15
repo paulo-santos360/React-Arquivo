@@ -168,3 +168,7 @@ npm run dev
 transformamos em um valor novo;
 - O primeiro argumentode um set sempre será o previous state;
 - Vamos ver na prática!
+
+# Comandos 
+
+- json api npm run server
