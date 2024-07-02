@@ -1,1 +1,105 @@
- npm i json-server "pacote API"
+9 Aula
+
+npm i json-server "pacote API"
+
+criar projeto dentro da msm pasta 
+npx create-react .
+
+iniciar o projeto
+npm start
+
+<></> fragmento não gera elemento HTML
+
+NPM TEST "EXECUTA O TEST"
+
+10 Aula npm run build
+
+npm run build cria uma nova pasta e com uma pasta css js e html minificado para uma linha so e vaz o codigo final pasta build arquivo final para o navegador
+agente muda os arquios src e public pra subir para a build que e o que interessa para o navegador
+
+BAbel converte jsx react para o navegador por baixo dos planos
+
+webpack e um bundle vai pegar todos os arquivos e vai passar por dentro e 
+converte para html css js imagems de acordo com o arquivo
+
+12 - React não precisa estar em toda as paginas
+
+so ir no html e criar arquivos html
+
+13 - componentes funcionais
+
+Componentes com Função e Class
+
+hooks controla os estados react do componentes
+
+import { Component } from 'react'
+
+class App extends Component {
+  render(){
+    return (
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>
+            Edit <code>src/App.js</code> and save to reload.
+          </p>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
+        </header>
+      </div>
+    );
+
+  }
+}
+
+/* function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
+} */
+
+14 Aula de STADOS FULL
+
+sempre que muda o status o render e chamado naquele component
+
+Single Page application tudo acontecer na msm pagina
+
+16 State com array
+
+regra de ouro no map sempre tem que ter uma key
+
+
+88 Rodas V6 vite e TypeScript
+
+comando para instalar o router rodas
+npm i react-router-dom@6
+
+
+
+
+
+
+
+
+
