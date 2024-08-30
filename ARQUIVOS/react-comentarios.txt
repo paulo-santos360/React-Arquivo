@@ -87,6 +87,8 @@ Single Page application tudo acontecer na msm pagina
 
 16 State com array
 
+Todo Array puro em JS tem um Map disponival
+
 regra de ouro no map sempre tem que ter uma key
 
 
@@ -95,6 +97,20 @@ regra de ouro no map sempre tem que ter uma key
 comando para instalar o router rodas
 npm i react-router-dom@6
 
+Atalho
+
+ul>li>a criar menu
+
+tag a vai ser a msm coisa que internent normal por isso melhor tag link
+a tag c perde o status por causa da renderização
+
+Link so troca os componentes
+
+92 use Params 
+
+<Route path="/posts/:id" element={<Post />} /> {/* Rotas Dinamicas */}
+
+94 Rota 404
 
 
 
